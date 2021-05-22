@@ -52,6 +52,12 @@ button:hover {
     transition: var(--transition);
 }
 
+h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
 
 /****************
      topBar
@@ -177,4 +183,74 @@ main {
     padding: 20px;
     border-radius: 50%;
     margin-bottom: 20px;
+}
+
+.info h2 {
+    margin-bottom: 30px;
+}
+
+
+/****************
+     slider
+*****************/
+
+.slider {
+    background: var(--lightGreen);
+    padding: 60px 10px;
+}
+
+.slider h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+
+/****************
+     programi
+*****************/
+
+.programi {
+    background: var(--white);
+    padding: 50px;
+}
+
+.programi article {
+    display: flex;
+}
+
+.programi article div {
+    flex: 0 0 50%;
+}
+
+.programi .slika1 {
+    background-image: url(../img/programi1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.programi .slika2 {
+    background-image: url(../img/programi2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.programi article .text {
+    padding: 50px;
+}
+
+.programi .wrapper {
+    box-shadow: 0 0 20px gray;
+}
+
+.programi h2 {
+    margin-bottom: 20px;
+}
+
+.programi button {
+    background: var(--blue);
+}
+
+.programi button:hover {
+    background: var(--lightGreen);
 }
